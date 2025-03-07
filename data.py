@@ -1,7 +1,5 @@
 # заголовки для HTTP-запроса, указывающие на то, что тело запроса будет в формате JSON
-headers = {
-    "Content-Type": "application/json"
-}
+headers = {"Content-Type": "application/json"}
 
 # данные для создания заказа
 order_body = {
@@ -13,7 +11,5 @@ order_body = {
     "rentTime": 5,
     "deliveryDate": "2020-06-06",
     "comment": "Saske, come back to Konoha",
-    "color": [
-        "BLACK"
-    ]
-}  
+    "color": ["BLACK"],
+}
